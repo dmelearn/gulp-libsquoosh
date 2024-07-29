@@ -3,7 +3,7 @@
 const os = require('os');
 const through = require('through2');
 const PluginError = require('plugin-error');
-const libSquoosh = require('@superbiche/squoosh-lib');
+const libSquoosh = require('@frostoven/libsquoosh');
 const debounce = require('lodash.debounce');
 
 const PLUGIN_NAME = 'gulp-libsquoosh';
